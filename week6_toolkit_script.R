@@ -8,7 +8,7 @@ library(gridExtra)
 set.seed(272)
 
 #Load trap data & DC map
-dc_traps <- read.csv(file = "dc_trap_sites.csv", header = TRUE)
+dc_traps <- read.csv(file = "~/272A_Week6_Toolkit/dc_trap_sites.csv", header = TRUE)
 #dc_traps_unique <- read.csv(file = "dc_trap_unique.csv", header = TRUE)
 dc_map <- get_stamenmap(bbox = c(left = -77.13, bottom = 38.81, right = -76.92, top = 39.0), maptype = "terrain", zoom = 12)
 
